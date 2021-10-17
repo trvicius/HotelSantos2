@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10rem;
+}
+
+a:link {
+    text-decoration: none;
+}

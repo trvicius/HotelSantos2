@@ -1,0 +1,141 @@
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    width: 100%;
+
+    background-color: white;
+    color: black;
+}
+
+/*
+.login-logo img {
+    width: 300px;
+    height: 300px;
+}
+*/
+
+.login-right { 
+    border-width: 1px;
+    border-style: solid;
+    border-color: hsl(9, 15%, 72%);
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding: 20px;
+    width: 450px;
+    height: 500px;
+}
+
+.login-right h1 {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    color: hsl(16, 4%, 49%);
+    padding-top: 2rem;
+}
+
+.login-right p {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    margin-top: -15px;
+    color: hsl(11, 5%, 57%);
+}
+
+.login-right h4 {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #343438;
+}
+
+.login-loginInputEmail {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #f2f2f6;
+    border-radius: 5px;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+}
+
+.login-loginInputEmail svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.login-loginInputEmail input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #474646;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login-loginInputPassword {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #f2f2f6;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 10px;
+    width: 98%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.login-loginInputPassword svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.login-loginInputPassword input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color:  #474646;
+    border: none;
+    font-size: 17px;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+.login-right button {
+    width: 98%;
+    background-color: hsl(14, 97%, 57%);
+    color: #EFF2F5;
+    font-weight: 800;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 1rem;
+    border: none;
+    margin-bottom: 0.05rem;
+    outline-width: 0;
+}
+
+.login-right button:hover {
+    background-color: #121214;
+    color: #EFF2F5;
+    cursor: pointer;
+}
+
+.login-eye {
+    align-items: center;
+    justify-content: center;
+    font-size: 30;
+    cursor: pointer;
+    margin-right: 10px;
+}

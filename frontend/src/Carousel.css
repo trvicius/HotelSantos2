@@ -1,0 +1,108 @@
+/* Banner */
+
+.banner {
+  position: relative;
+  z-index: 100;
+}
+
+.bannerinfo {
+  background-color: hsla(0, 0%, 0%, 0.685);
+  color: white;
+  padding-top: 20vh;
+  padding-left: 5rem;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 50rem;
+  height: 31rem;
+}
+
+.bannersearch {
+  display: flex;
+  flex-direction: column;
+}
+
+.bannersearchButton {
+background-color: white !important;
+font-weight: 900 !important;
+text-transform: inherit !important;
+color: hsl(14, 97%, 57%)!important;
+z-index: 100;
+}
+
+.bannerinfo > button {
+  background-color: white;
+  color: black;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.bannerinfo > button:hover {
+  background-color: white;
+  color: hsl(14, 97%, 57%);
+}
+
+
+.bannerinfo > h5 {
+  margin-top: 10px;
+}
+
+/* Carousel */
+.carousel {
+  width: 100%;
+  height: 700px;
+  background-color: black;
+}
+
+.carouselInner {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.carouselInner .left {
+  flex: 5%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.carouselInner .center {
+  flex: 80%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-align-last: center;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+h1, p {
+  background-color: rgba(255, 255, 255, 0.644);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.carouselInner .right {
+  flex: 5%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+  color: white;
+  cursor: pointer;
+}

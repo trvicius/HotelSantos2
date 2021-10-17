@@ -1,0 +1,35 @@
+.search {
+    position: absolute;
+    top: 35px;
+    left: 35%;
+    width: 100vw;
+}
+
+.search > input {
+    width: 539px;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    height: 30px;
+    top: 420px;
+    border: none;
+  }
+  
+.search > input:focus {
+    outline-width: 0;
+}
+
+.search > button {
+    position: absolute;
+    left: 0;
+    top: 355px;
+    text-transform: inherit !important;
+    background-color: hsl(14, 97%, 57%);
+    color: white;
+    width: 558px;
+  }
+
+.search > button:hover {
+    background-color: white;
+    color: hsl(14, 97%, 57%);
+}
