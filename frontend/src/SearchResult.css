@@ -71,3 +71,17 @@
     bottom: 20px;
     right: 30px;
 }
+
+.reserva{
+    width: 98%;
+    background-color: hsl(14, 97%, 57%);
+    color: #EFF2F5;
+    font-weight: 800;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 1rem;
+    border: none;
+    margin-bottom: 0.05rem;
+    outline-width: 0;
+}

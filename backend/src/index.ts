@@ -12,4 +12,4 @@ app.use(cors())
 app.use(bodyParser.json());
 app.use(routes)
 
-app.listen(4000, () => console.log('Server Started at http://localhost:3000'))
+app.listen(4000, () => console.log('Server Started at http://localhost:4000'))

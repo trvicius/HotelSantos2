@@ -13,14 +13,15 @@ function SearchPage() {
     //const [showSearch, setShowSearch] = useState(false);
     const [rooms, setRooms] = useState([]);
 
-    function checkRoom(id){
-        alert('Clicou')
-    }
+    // function checkRoom(id){
+    //     alert('Clicou')
+    // }
 
     async function getRooms() {
         var response = await api.get("/rooms?reservado=true");
 
-        //console.log(response);
+        console.log(response);
+
 
         setRooms(response.data)
     }
@@ -57,7 +58,7 @@ function SearchPage() {
 
                 {
                     rooms.map(room => <SearchResult
-                        onClick={() => checkRoom(room.id)}
+                        // onClick={() => checkRoom(room.id)}
                         img={room.img}
                         location={room.location}
                         title={room.title}
@@ -65,6 +66,8 @@ function SearchPage() {
                         star={room.star}
                         price={`R$ ${room.price} por noite`}
                         total="R$117 total"
+                        id={room.id}
+                        updateList={() => getRooms()}
                         key={room.id}
                     />)
                 }

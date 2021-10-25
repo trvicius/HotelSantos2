@@ -6,9 +6,12 @@ import Footer from './Footer';
 import SearchPage from './SearchPage';
 import LoginPage from './LoginPage';
 import Signup from './signup';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import ProtectedRoute from "./ProtectedRoute"
+
 
 function App() {
+
   return (
 
     // BEM
@@ -23,15 +26,15 @@ function App() {
               <Signup />
           </Route> 
 
-          <Route exact path="/loginpage">
-              <LoginPage />
-          </Route>    
 
-          <Route path="/search">
-            <SearchPage />
+          {/* <Route path="/search" component={SearchPage} /> */}
+          <ProtectedRoute path="/search" component={SearchPage} />
+
+          <Route exact path="/">
+              <LoginPage />
           </Route>
 
-          <Route path="/">
+          <Route path="/home">
             <Home />
           </Route>
 
