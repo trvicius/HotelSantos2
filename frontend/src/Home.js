@@ -27,7 +27,7 @@ function Home() {
             <Card
                 src="https://s2.glbimg.com/owGGkt7NP8YnUUmVQ2luKHMAMV4=/0x0:639x423/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/g/l/VbPsVeSjiBvjbow4hAEA/piscina-hotel.jpg"
                 title="Piscina ao ar livre"
-                description="Diversão para toda familia."
+                description="Diversão para toda familia 2."
             />
             <Card
                 src="https://exp.cdn-hotels.com/hotels/1000000/700000/692500/692420/bd263dfe_z.jpg?impolicy=fcrop&w=500&h=333&q=medium"
